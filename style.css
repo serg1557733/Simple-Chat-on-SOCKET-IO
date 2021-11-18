@@ -1,0 +1,57 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    max-width: 1140px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 50px;
+    background-color:azure;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.wrapper{
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid rgb(144, 148, 90);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 550px;
+}
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 2px;
+}
+#formContainer {
+    display: flex;
+    margin: 0 auto;
+}
+#answer {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 560px;
+}
+#message {
+    
+    background-color:rgb(252, 250, 248);
+}
+.btn {
+    height: 20px;
+    padding:0 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgb(243, 219, 167);
+    border-radius: 10px;
+}
+span {
+    width: 500px;
+    padding: 5px;
+    border-radius:10px;
+}
